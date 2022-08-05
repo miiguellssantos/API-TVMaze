@@ -1,0 +1,37 @@
+/*Heitor Leite de Almeida, Raissa Moretto e Miguel Lordello*/
+
+.search input[type=text]{
+	border:1px solid #ccc;
+	border-radius: 5px; 
+	margin:0 5px 0;
+	width:200px;
+	color:#333;
+	font-style:italic;
+}
+.search input[type=submit]{
+	padding: 5px;
+	font-weight:bold;
+	border:1px solid #ccc;
+	border-radius: 0 5px 5px 0; 
+	margin:0;
+	background: #ffffff;
+	background: linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+}
+.search input[type=submit]:hover{
+	padding: 5px;
+	border:1px solid #ccc;
+	border-radius: 0 5px 5px 0; 
+	margin:0;
+	background: #c00;
+	color:#fff
+}
+
+body {
+	background: #333;
+	text-align:center;
+	padding:100px;
+}
+
+h1{
+	color: white
+}
